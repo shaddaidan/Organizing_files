@@ -16,6 +16,7 @@ def files_directory(value):
                 return k 
     return 'MISC'
 
+print(files_directory('.jpeg'))
 
 def arrange_directory():
     for items in os.scandir():
